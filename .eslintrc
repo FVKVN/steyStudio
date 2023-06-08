@@ -1,3 +1,14 @@
 {
+  "root": true,
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "globals": {
+    "google": "readonly",
+    "showAuth0": "readonly",
+    "Cookiebot": "readonly",
+    "dataLayer": "readonly"
+  },
   "extends": "@sanity/eslint-config-studio"
 }
